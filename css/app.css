@@ -1,0 +1,383 @@
+body{
+	font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+}
+.socail{
+    text-align: right;
+}
+
+
+.header-info
+{
+    padding: 6px 0px;
+}
+
+.header-info > div > div > div > span 
+{
+    color:#767676;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.header-info > div > div > div > span > a
+{
+    color:#f00;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.header-info > div > div > div > i 
+{
+    color:#000080;
+}
+
+.text-blue
+{
+    color: #1779ba;
+}
+
+.capitalize
+{
+    text-transform: uppercase;
+}
+
+.menu-section{
+    background-color: #0D2572;
+
+    border-bottom: 10px #b73131 solid;
+}
+.menu-section > .row{
+    padding:13px 0px;
+    border-bottom: 1px #fff solid;
+}
+.last_line{
+    border-bottom: 5px #B73131 solid;
+}
+.top-bar, .top-bar ul {
+    background-color: #0D2572;
+
+}
+.top-bar-right > ul > li > a{
+    color: #fff;
+    font-weight:600 !important;
+    text-transform:uppercase;
+    font-size: 14px;
+}
+.top-bar-right > ul > li > a:hover{
+    color: red;
+}
+.top-bar-right > ul > li > a:hover,
+.top-bar-left > ul > li :active
+{
+    color: red;
+}
+.logo{
+    height: 50px;
+    max-width: 200px;
+}
+
+.card-content
+{
+    padding: 20px 0px;
+}
+
+.blog-content h3
+{
+    color:blue;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+/*.top-bar > .top-bar-right > ul > li > a{
+    font: bolder !important;
+}*/
+
+/*slider css start here*/
+.orbit-image{
+
+    height: 500px;
+
+}
+/*slider css end here*/
+.block-four::nth-word(1){
+    text-decoration: underline;
+}
+.blog{
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+/*card content start here*/
+.blog-content1{
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+
+.blog-content{
+    padding-bottom: 45px;
+}
+
+.blog-content > h3 > p {
+
+    color:#767676;
+}
+
+/*.product-image-box > div > img
+{
+  padding: 0px;
+  margin: 0px;
+}*/
+
+/*.img_content{
+    height: 324.667px;
+    width: 640px;
+}*/
+/*card content end here*/
+
+/*card part start here*/
+/*.card_img{
+    height: 307.533px;
+    width: 411.3px;
+}*/
+/*card part end here*/
+
+/*footer part css start here*/
+
+.card-title
+{
+    padding-top: 30px;
+}
+
+.footer{
+    background-color: #212121; 
+    padding: 25px 0px 0px 0px;
+    
+}
+
+.link-column1 > h4{
+    color:gray;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.link-column1 > ul{
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.link-column1 > form{
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.link-column1 > form > div > div > div > input{
+    background-color: #3E3E3E;
+}
+.link-column1 > form > div > div > textarea{
+    background-color: #3E3E3E;
+}
+.link-column1 > form > div > div > textarea:hover{
+    background-color: #fff;
+}
+.link-column1 > ul > li > a{
+    margin-left: 0px;
+    padding: 5px 0px;
+    color: gray;
+    font-weight: 600;
+    text-transform:uppercase;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+
+
+.footer-bootm{
+    background-color: navy;
+    padding: 15px 0px;
+    border-top:1px solid #B73131;
+}
+
+.footer-bootm > div > div > div 
+{
+    color: #cacaca;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.footer-bootm > div > div > div > a 
+{
+    color: #cacaca;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.copyright{
+    color: #607D8B;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+}
+.design {
+    color:#607D8B;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+    text-align: right;
+}
+.design a {
+    color: #607D8B;
+}
+.fullscreen-image{
+    background: url('../images/blossom-bloom-flower-blue-67642.jpeg') 50% no-repeat; 
+    color: #fff;
+    /*   background-color: #f06292;*/
+    min-height: 100px;
+    padding: 80px 0px;
+    text-shadow: 1px 1px 2px $black;
+
+}
+.fullscreen-image > div > h1 {
+    font-size: 3rem; 
+    color: #FFD54F;
+    /*    padding-left: 80px;*/
+}
+.lead{
+    font-size: 1.8rem;
+    /*    padding-left: 80px;*/
+
+}
+.contact-btn{
+    margin-top: 50px;
+    size: 150px;
+
+}
+.button.hollow.success {
+    border: 1px solid #fff;
+    color: #fff;
+
+}
+.button.large {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: -28px;
+}
+.button.hollow.success:hover,
+.button.hollow.success:focus {
+    border-color: #22bb5b;
+    color: #22bb5b;
+
+}
+/*fotter part end here*/
+
+/*product css start*/
+.pro-head{
+    background: skyblue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#235AA6, #92ACD3, #235AA6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#235AA6, #92ACD3, #235AA6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#235AA6, #92ACD3, #235AA6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#235AA6,#92ACD3, #235AA6); /* Standard syntax */
+    /*    padding: 50px 22px 0 20px;*/
+    border-radius: 5px;
+    height: 80px;
+
+}
+.product-header{
+    padding-top: 30px;
+}
+h3{
+    color: #fff;
+    text-height: 20px;
+    margin-top: 25px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.blog-part{
+    padding-top: 50px;
+}
+.tabs{
+    height: auto;
+   
+}
+.tabs-title > a:focus, .tabs-title > a[aria-selected="true"] {
+    /*background: red; 
+    background: -webkit-linear-gradient(#000,#6f0000); 
+    background: -o-linear-gradient(#000, #6f0000); 
+    background: -moz-linear-gradient(#000, #6f0000); 
+    background: linear-gradient(#000, #6f0000); 
+    color: #fff;
+    border-radius: 1px 30px 30px 1px;
+    height: 2px;
+    */
+    
+   
+}
+.tabs-title > a {
+    /*color: #1779ba;
+    display: block;
+    font-size: 0.75rem;
+    border-bottom: 1px solid #ededed;
+    padding: 1.25rem 1.5rem;*/
+    line-height: 40px;
+    background: #f4f4f4;
+    display: block;
+    color: #515151;
+    border-left: 3px solid #B73131;
+    border-bottom: 2px solid #ededed;
+    padding: 0 0 0 10px;
+    margin-top: -1px;
+}
+
+
+
+.hh2{background: #3B6CB0;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 5px 5px 0 0;
+    padding: 0 10px;
+    display: block;
+    margin: 0;
+    margin-left: 1px;
+}
+.tabs-title > a:hover {
+    /*background: red; 
+    background: -webkit-linear-gradient(#000,#6f0000); 
+    background: -o-linear-gradient(#000, #6f0000); 
+    background: -moz-linear-gradient(#000, #6f0000); 
+    background: linear-gradient(#000, #6f0000); 
+    color: #fff;
+    border-radius: 1px 30px 30px 1px;*/
+    border-left: 3px solid #3B6CB0;
+    background: #fff;
+    
+    
+}
+/*robot*/
+* {
+  box-sizing: border-box;
+}
+
+/*.container {
+  max-width: 300px;
+  background: #ccc;
+  padding: 20px;
+}*/
+
+.g-recaptcha {
+  transform-origin: left top;
+  -webkit-transform-origin: left top;
+}/*robot*/
+
+
+.card-top-img img{
+    width:100% !important;
+    height: 240px;
+}
+
+/*product css end here*/*/
+
+
+
